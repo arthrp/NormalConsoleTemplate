@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "arthrp",
+  "classifications": [ "Console" ],
+  "name": "Simple Console template",
+  "identity": "MyProject.01.Sample.CSharp",
+  "groupIdentity":"MyProject.01.Sample",
+  "shortName": "simpleconsole",                    
+  "tags": {
+    "language": "C#",                        
+    "type":"project"
+  },
+  "sourceName": "NormalConsoleTemplate",              
+  "preferNameDirectory":true
+}
