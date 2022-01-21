@@ -23,4 +23,5 @@ jobs:
           zip -r release.zip out
       - name: Upload
         uses: softprops/action-gh-release@v1
-        with: release.zip
+        with: 
+          files: release.zip
