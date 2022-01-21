@@ -19,7 +19,7 @@ jobs:
         run: dotnet build
       - name: Pack
         run: |
-          dotnet pack NormalConsoleTemplate/NormalConsoleTemplate.csproj --output out
+          dotnet pack NormalConsoleTemplate/NormalConsoleTemplate.csproj --output out -p:NuspecFile=NormalConsoleTemplate/NormalConsoleTemplate.nuspec
           zip -r release.zip out
       - name: Upload
         uses: softprops/action-gh-release@v1
